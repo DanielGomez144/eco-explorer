@@ -4,3 +4,10 @@ html, body, #root { margin: 0; height: 100%; font-family: system-ui, sans-serif;
 .start button { padding: 14px 28px; font-size: 18px; border: 0; border-radius: 999px; background: #2ecc9a; color: #04261b; cursor: pointer; }
 .hud { position: fixed; left: 12px; bottom: 12px; padding: 8px 12px; border-radius: 8px;
   background: rgba(0,0,0,.5); color: #fff; font-size: 14px; pointer-events: none; }
+.crosshair { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #fff; font-size: 24px; pointer-events: none; text-shadow: 0 0 4px #000; }
+.score { position: fixed; top: 12px; left: 12px; padding: 10px 14px; border-radius: 10px; background: rgba(0,0,0,.55); color: #fff; font-size: 14px; display: grid; gap: 4px; pointer-events: none; }
+.bar { height: 8px; border-radius: 4px; background: rgba(255,255,255,.25); overflow: hidden; }
+.bar div { height: 100%; background: #2ecc9a; transition: width .4s; }
+.prompt { position: fixed; top: 56%; left: 50%; transform: translateX(-50%); padding: 6px 12px; border-radius: 8px; background: rgba(0,0,0,.6); color: #fff; font-size: 14px; pointer-events: none; }
+.info { position: fixed; right: 16px; top: 16px; width: min(320px, 80vw); padding: 14px 16px; border-radius: 12px; background: rgba(255,255,255,.95); color: #0a2a3a; pointer-events: none; }
+.info h3 { margin: 0 0 6px; } .info p { margin: 0 0 6px; font-size: 14px; } .info .reward { color: #0b8a5f; font-weight: 600; }
