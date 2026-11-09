@@ -16,7 +16,4 @@ TH-01 proyecto base · TH-02 Canvas 3D · HU-01 ingreso al ecosistema · HU-02 m
 - HU-04: recoge residuos (+10 puntos de conservación y sube el estado del ecosistema).
 - TH-03: modelos 3D de bajo poligonaje en `src/models.jsx`, con geometrías y materiales compartidos.
 
-### Reemplazar por modelos .glb reales
-1. Optimiza el archivo (por ejemplo con `npx gltf-transform optimize in.glb out.glb`).
-2. Colócalo en `public/models/` y cárgalo con `useGLTF('/models/pez.glb')` de `@react-three/drei`.
-3. Devuelve `<primitive object={scene.clone()} />` dentro del componente correspondiente de `models.jsx`.
+
