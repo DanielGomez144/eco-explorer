@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { useFrame, useThree } from '@react-three/fiber'
 import { Vector3 } from 'three'
 
-export const LIMIT = 40 // límites del mapa
+export const LIMIT = 40 // HU-02: límites del mapa
 const SPEED = 8
 const forward = new Vector3()
 const right = new Vector3()
